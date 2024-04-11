@@ -182,7 +182,7 @@ section {
 .page-about {
   color: #fff;
 }
-.visual-hidden {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -523,7 +523,8 @@ section {
 .modal-close-btn:focus {
   cursor: pointer;
   fill: #fff;
-  background-color: #4d5ae5;
+  background-color: #404bbf;
+  border: none;
 }
 
 .modal-title {
@@ -730,5 +731,5 @@ section {
 .checkbox-checked:checked + .checkbox-label span {
   fill: #f4f4fd;
   border: none;
-  background-color: #4d5ae5;
+  background-color: #404bbf;;
 }
